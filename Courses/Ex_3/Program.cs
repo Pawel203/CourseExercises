@@ -10,6 +10,22 @@ namespace Ex_3
     {
         static void Main(string[] args)
         {
+            int a = 1;
+
+            if (a > 0) 
+            {
+                Console.WriteLine(a + " jest wieksze od 0");
+            }
+            else if (a == 0)
+            {
+                Console.WriteLine(a + " jest rowne 0");
+            }
+            else
+            {
+                Console.WriteLine(a + " jest mniejsze od 0");
+
+            }
+
         }
     }
 }
