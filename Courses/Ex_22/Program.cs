@@ -20,7 +20,7 @@ namespace Ex_22
 
             foreach (Auto item in list)
             {
-                Console.WriteLine(item.UruchomSilnik);
+                Console.WriteLine(item.Nazwa);
             }
         }
     }
